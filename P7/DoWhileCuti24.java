@@ -28,7 +28,9 @@
                         
                         
                     }
-                } 
+                    }else if (konfirmasi.equalsIgnoreCase("t")){
+                        break;
+                    }
                 } else {
                     break;
                 }
