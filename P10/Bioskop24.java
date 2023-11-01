@@ -17,13 +17,19 @@ public class Bioskop24 {
         System.out.printf("%s \t %s \n", penonton[3][0], penonton[3][1]);
 
         System.out.println(penonton.length);
-        for (int i = 0; i<penonton.length;i++) {
-            System.out.println("Panjang dari baris ke-" + (i+1)+": "+penonton[1].length);
+        for (String[] barisPenonton : penonton) {
+            System.out.println("Panjang baris: " + barisPenonton.length);
+        }
+        System.out.println("Penonton pada baris ke-3: ");
+
+        for (int i = 0; i < penonton[2].length; i++) {
+            System.out.println(penonton[2][i]);
+        }
+    }
 
 
     }
-    }
-}
+
 
     
 
