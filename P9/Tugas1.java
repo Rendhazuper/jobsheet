@@ -1,3 +1,4 @@
+package P9;
 import java.util.Scanner;
 
 public class Tugas1 {
